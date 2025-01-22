@@ -12,18 +12,18 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { FcDocument } from 'react-icons/fc';
 
-import ptResume from '../assets/docs/tiago-leite-resume-pt.pdf';
-import enResume from '../assets/docs/tiago-leite-resume-en.pdf';
-import ProfilePicture from '../assets/images/profile/me.jpg';
+import ptResume from '../assets/docs/Resume_Thiago_PT.pdf';
+import enResume from '../assets/docs/Resume_Thiago_EN.pdf';
+import ProfilePicture from '../assets/images/profile/me.JPG';
 
 // Language settings
 const CURRENT_KEY = localStorage.getItem('i18nextLng');
 
 const Home = () => {
   const social = {
-    linkedin: 'https://www.linkedin.com/in/tiagocreator/',
-    github: 'https://github.com/tiagocreator',
-    email: 'mailto:contato@tiagocreator.com',
+    linkedin: 'https://www.linkedin.com/in/thiagotorresz/',
+    github: 'https://github.com/thiagotorresz',
+    email: 'mailto:torrestube093@gmail.com',
   };
 
   const resumeLink = CURRENT_KEY === 'pt-BR' ? ptResume : enResume;
@@ -129,7 +129,7 @@ const Home = () => {
               {/* Buttons */}
               <div className='md:mx-0 w-full flex justify-center md:justify-start items-center mt-6 text-theme-white text-sm sm:text-base'>
                 <Link to='works' smooth={true} duration={600}>
-                  <button className='w-28 sm:w-32 2xl:w-32 h-12 flex justify-center items-center rounded bg-transparent mr-4 md:mr-7 border-2 hover:text-white active:text-white hover:bg-theme-blue-50 active:bg-theme-blue-50 hover:border-theme-blue-50 active:border-theme-blue-50 duration-200 group font-medium'>
+                  <button className='w-28 sm:w-32 2xl:w-32 h-12 flex justify-center items-center rounded bg-transparent mr-4 md:mr-7 border-2 hover:text-white active:text-white hover:bg-green-600 active:bg-green-600 hover:border-green-600 active:border-green-600 duration-200 group font-medium'>
                     {i18n.t('homeSection.buttons.work')}
                     <span className='group-hover:rotate-90 group-active:rotate-90 duration-300'>
                       <HiArrowNarrowRight className='ml-1' />
@@ -137,7 +137,7 @@ const Home = () => {
                   </button>
                 </Link>
                 <Link to='contact' smooth={true} duration={600}>
-                  <button className='w-24 2xl:w-28 h-12 flex justify-center items-center rounded bg-theme-blue-50 hover:bg-theme-blue-100 active:bg-theme-blue-100 hover:text-white active:text-white duration-200 font-medium'>
+                  <button className='w-24 2xl:w-28 h-12 flex justify-center items-center rounded bg-green-700 hover:bg-green-500 active:bg-green-500 hover:text-white active:text-white duration-200 font-medium'>
                     {i18n.t('homeSection.buttons.hire')}
                   </button>
                 </Link>

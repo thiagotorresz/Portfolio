@@ -6,7 +6,7 @@ const Footer = () => {
       <span className="text-sm font-medium">2023 Tiago Leite</span>{' '}
       <a
         className="text-sm absolute right-2.5"
-        href="https://github.com/tiagocreator/my-portfolio"
+        href="https://github.com/thiagotorresz/my-portfolio"
         target="_blank"
         rel="noreferrer"
       >

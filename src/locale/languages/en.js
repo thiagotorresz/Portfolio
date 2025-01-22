@@ -11,7 +11,7 @@ const content = {
         },
         resume: {
           name: 'Resume',
-          downloadName: 'tiago-leite-resume',
+          downloadName: 'thiago_torres_resume',
           downloadMessage: 'Downloading resume',
         },
       },

@@ -10,8 +10,8 @@ import { BsFillPersonLinesFill, BsChevronDown } from 'react-icons/bs';
 import { HiOutlineMail } from 'react-icons/hi';
 import { FcDocument } from 'react-icons/fc';
 
-import ptResume from '../assets/docs/tiago-leite-resume-pt.pdf';
-import enResume from '../assets/docs/tiago-leite-resume-en.pdf';
+import ptResume from '../assets/docs/Resume_Thiago_PT.pdf';
+import enResume from '../assets/docs/Resume_Thiago_EN.pdf';
 import Brackets from '../assets/images/logo/brackets-dark.png';
 import Torres from '../assets/images/logo/torres.png';
 import '../../node_modules/flag-icons/css/flag-icons.min.css';
@@ -35,9 +35,9 @@ const Navbar = () => {
   };
 
   const social = {
-    linkedin: 'https://www.linkedin.com/in/tiagocreator/',
-    github: 'https://github.com/tiagocreator',
-    email: 'mailto:contato@tiagocreator.com',
+    linkedin: 'https://www.linkedin.com/in/thiagotorresz/',
+    github: 'https://github.com/thiagotorresz',
+    email: 'mailto:torrestube093@gmail.com',
   };
 
   const resumeLink = CURRENT_KEY === 'pt-BR' ? ptResume : enResume;

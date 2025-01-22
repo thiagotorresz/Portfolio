@@ -3,17 +3,17 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { HiOutlineMail } from 'react-icons/hi';
 import { FcDocument } from 'react-icons/fc';
 import { i18n } from '../locale/i18n';
-import ptResume from '../assets/docs/tiago-leite-resume-pt.pdf';
-import enResume from '../assets/docs/tiago-leite-resume-en.pdf';
+import ptResume from '../assets/docs/Resume_Thiago_PT.pdf';
+import enResume from '../assets/docs/Resume_Thiago_EN.pdf';
 import toast from 'react-hot-toast';
 
 const CURRENT_KEY = localStorage.getItem('i18nextLng');
 
 const Sidebar = () => {
   const social = {
-    linkedin: 'https://www.linkedin.com/in/tiagocreator/',
-    github: 'https://github.com/tiagocreator',
-    email: 'mailto:contato@tiagocreator.com',
+    linkedin: 'https://www.linkedin.com/in/thiagotorresz/',
+    github: 'https://github.com/thiagotorresz',
+    email: 'mailto:torrestube093@gmail.com',
   };
 
   const resumeLink = CURRENT_KEY === 'pt-BR' ? ptResume : enResume;

@@ -30,11 +30,11 @@ Distribuido sobre a Licença Apache Versão 2.0 (Apache 2.0), para saber mais le
 ### Imagens
 
 #### :iphone: Página Home mobile:
-![pagina-home-mobile](https://github.com/tiagocreator/my-portfolio/assets/82607849/a4a4c148-f08e-4c7a-9b87-0c0436874b92)
+![pagina-home-mobile](https://github.com/thiagotorresz/my-portfolio/assets/82607849/a4a4c148-f08e-4c7a-9b87-0c0436874b92)
 
 
 #### :desktop_computer: Página Home desktop:
-![pagina-home-desktop](https://github.com/tiagocreator/my-portfolio/assets/82607849/f0409270-f234-4430-a5da-17cf19d68f4a)
+![pagina-home-desktop](https://github.com/thiagotorresz/my-portfolio/assets/82607849/f0409270-f234-4430-a5da-17cf19d68f4a)
 
 ---
 

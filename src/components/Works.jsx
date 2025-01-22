@@ -30,7 +30,7 @@ const Works = () => {
       description: `${i18n.t('worksSection.casaECor.description')}`,
       tools: 'HTML5, LESS, JavaScript',
       link: 'https://casa-e-cor.vercel.app/',
-      code: 'https://github.com/tiagocreator/casa-e-cor',
+      code: 'https://github.com/thiagotorresz/casa-e-cor',
     },
     lasso: {
       alt: i18n.t('worksSection.lasso.alt'),
@@ -38,7 +38,7 @@ const Works = () => {
       description: `${i18n.t('worksSection.lasso.description')}`,
       tools: 'React, Redux, Sass',
       link: 'https://lasso-ecommerce.up.railway.app/',
-      code: 'https://github.com/tiagocreator/lasso-ecommerce',
+      code: 'https://github.com/thiagotorresz/lasso-ecommerce',
     },
     noir: {
       alt: i18n.t('worksSection.noir.alt'),
@@ -46,7 +46,7 @@ const Works = () => {
       description: `${i18n.t('worksSection.noir.description')}`,
       tools: 'HTML5, CSS3, JavaScript',
       link: 'https://noir-barbearia.vercel.app/',
-      code: 'https://github.com/tiagocreator/noir-barbearia',
+      code: 'https://github.com/thiagotorresz/noir-barbearia',
     },
     alugaFacil: {
       alt: i18n.t('worksSection.alugaFacil.alt'),
@@ -54,7 +54,7 @@ const Works = () => {
       description: `${i18n.t('worksSection.alugaFacil.description')}`,
       tools: 'React, TypeScript, Sass',
       link: 'https://aluga-facil.vercel.app/',
-      code: 'https://github.com/tiagocreator/aluga-facil',
+      code: 'https://github.com/thiagotorresz/aluga-facil',
     },
   };
 

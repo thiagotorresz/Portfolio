@@ -16,7 +16,7 @@ const content = {
         },
       },
       homeSection: {
-        intro: "Hello, I'm Tiago Leite.",
+        intro: "Hello, I'm Thiago Torres.",
         welcome: 'Welcome to my portfolio',
         smallDescription: "I'm a",
         animatedTexts: {

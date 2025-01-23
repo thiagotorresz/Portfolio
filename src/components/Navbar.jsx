@@ -13,7 +13,6 @@ import { FcDocument } from 'react-icons/fc';
 import ptResume from '../assets/docs/Resume_Thiago_PT.pdf';
 import enResume from '../assets/docs/Resume_Thiago_EN.pdf';
 import Brackets from '../assets/images/logo/brackets-dark.png';
-import Torres from '../assets/images/logo/torres.png';
 import '../../node_modules/flag-icons/css/flag-icons.min.css';
 
 const Navbar = () => {
@@ -54,8 +53,8 @@ const Navbar = () => {
       <Link to='home' smooth={true} duration={600}>
         <div className='group flex justify-center items-center select-none'>
           <img
-            className='w-16 2xl:w-24 h-auto group-hover:rotate-[-15deg] duration-300'
-            src={Torres}
+            className='w-10 lg:w-12 h-auto group-hover:rotate-[-15deg] duration-300'
+            src={Brackets}
             alt='logo'
           />
           <h1 className='text-xl 2xl:text-2xl ml-4 font-bold'>Torres Dev</h1>

@@ -43,14 +43,14 @@ const Home = () => {
     <>
       <Particles />
       <section
-        className='w-full flex justify-center align-center flex-col pt-16 md:pt-20 min-h-screen lg:pb-16 relative bg-transparent shadow-lg shadow-[#282A3A]'
+        className='w-full flex justify-center align-center flex-col pt-16 md:pt-20 min-h-screen pb-0 lg:pb-16 relative bg-transparent md:shadow-md shadow-black'
         name='home'>
         <div className='w-full max-w-[900px] flex flex-col justify-center mx-auto px-4 md:px-8'>
           <div className='flex flex-col md:flex-row-reverse align-center justify-center'>
             {/* Profile Picture */}
-            {/* <div
+            <div
               className='w-56 h-56 md:w-80 md:h-80 border-2 md:border-[3px] animate-morph border-theme-white flex justify-center items-center m-auto md:ml-auto md:my-auto transition-all duration-[1s] bg-center bg-no-repeat bg-cover border-3 border-solid relative ease-in-out'
-              style={pictureStyle}></div> */}
+              style={pictureStyle}></div>
             <div>
               {/* Introduction */}
               <div className='flex flex-col md:flex-row items-start justify-between mb-6'>

@@ -4,16 +4,16 @@ import {
   SiTailwindcss,
   SiFirebase,
   SiReact,
-  SiFigma,
+  SiNodedotjs,
   SiJavascript,
   SiTypescript,
-  SiHtml5,
-  SiCss3,
-  SiSass,
-  SiChakraui,
-  SiJest,
+  SiAngular ,
+  SiPhp,
+  SiBootstrap,
+  SiCodeigniter 
 } from 'react-icons/si';
-import { BsPlusLg, BsServer } from 'react-icons/bs';
+import { DiDatabase, DiJava } from "react-icons/di";
+import { BsPlusLg } from 'react-icons/bs';
 import { HiMinus } from 'react-icons/hi';
 
 import { i18n } from '../locale/i18n';
@@ -34,18 +34,18 @@ const Skills = () => {
           </h1>
         </div>
         <div className='w-full grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 text-center gap-5 pb-6 md:pb-0 md:pt-6'>
-          <SkillCard color='#61DAFB' icon={SiReact} name='React' />
           <SkillCard color='#EFD81E' icon={SiJavascript} name='JavaScript' />
+          <SkillCard color='#61DAFB' icon={SiReact} name='React' />
+          <SkillCard color='#83CD29' icon={SiNodedotjs} name='Node.js' />
           <SkillCard color='#146BBC' icon={SiTypescript} name='TypeScript' />
-          <SkillCard color='#DC4A29' icon={SiHtml5} name='HTML5' />
-          <SkillCard color='#376FB4' icon={SiCss3} name='CSS3' />
-          <SkillCard color='#62CA80' icon={SiFigma} name='Figma' />
-          <SkillCard color='#C76494' icon={SiSass} name='Sass' active={active} />
-          <SkillCard color='#65CBCD' icon={SiChakraui} name='Chakra UI' active={active} />
+          <SkillCard color='#DD0031' icon={SiAngular } name='Angular.js' />
+          <SkillCard color='#F89917' icon={DiJava } name='Java' />
+          <SkillCard color='#787CB4' icon={SiPhp} name='PHP' active={active} />
+          <SkillCard color='#EE4323' icon={SiCodeigniter } name='CodeIgniter' active={active} />
           <SkillCard color='#36B7F0' icon={SiTailwindcss} name='Tailwind' active={active} />
+          <SkillCard color='#553D7B' icon={SiBootstrap } name='Bootstrap' active={active} />
           <SkillCard color='#EE800F' icon={SiFirebase} name='Firebase' active={active} />
-          <SkillCard color='#69DDB3' icon={BsServer} name='Restful API' active={active} />
-          <SkillCard color='#954058' icon={SiJest} name='Jest' active={active} />
+          <SkillCard color='#B3B3B6' icon={DiDatabase} name='Database' active={active} />
         </div>
         <button
           className='sm:hidden w-36 h-11 flex justify-center items-center mx-auto rounded bg-transparent border-2 hover:text-white active:text-white hover:bg-theme-blue-50 active:bg-theme-blue-50 hover:border-theme-blue-50 active:border-theme-blue-50 duration-200 group font-medium'

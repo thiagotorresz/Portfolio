@@ -1,12 +1,12 @@
 import WorkElement from './WorkElement';
-import NoirMobileImg from '../assets/images/works/noir.jpg';
-import NoirDesktopImg from '../assets/images/works/noir-desktop.jpg';
-import LassoMobileImg from '../assets/images/works/lasso.jpg';
-import LassoDesktopImg from '../assets/images/works/lasso-desktop.jpg';
-import CasaECorMobileImg from '../assets/images/works/casa-e-cor.jpg';
-import CasaECorDesktopImg from '../assets/images/works/casa-e-cor-desktop.jpg';
-import AlugaFacilMobileImg from '../assets/images/works/aluga-facil.jpg';
-import AlugaFacilDesktopImg from '../assets/images/works/aluga-facil-desktop.jpg';
+import rotaryMobileImg from '../assets/images/works/rotary.jpeg';
+import rotaryDesktopImg from '../assets/images/works/rotary-desktop.png';
+import casadecampoMobileImg from '../assets/images/works/casadecampo.jpeg';
+import casadecampoDesktopImg from '../assets/images/works/casadecampo-desktop.png';
+import villageresortMobileImg from '../assets/images/works/villageresort.jpeg';
+import villageresortDesktopImg from '../assets/images/works/villageresort-desktop.png';
+import amorexigenteMobileImg from '../assets/images/works/amorexigente.jpeg';
+import amorexigenteDesktopImg from '../assets/images/works/amorexigente-desktop.png';
 
 import Slider from 'react-slick';
 import { i18n } from '../locale/i18n';
@@ -24,37 +24,33 @@ const Works = () => {
   };
 
   let info = {
-    casaECor: {
-      alt: i18n.t('worksSection.casaECor.alt'),
-      name: `${i18n.t('worksSection.casaECor.name')}`,
-      description: `${i18n.t('worksSection.casaECor.description')}`,
-      tools: 'HTML5, LESS, JavaScript',
-      link: 'https://casa-e-cor.vercel.app/',
-      code: 'https://github.com/thiagotorresz/casa-e-cor',
+    villageresort: {
+      alt: i18n.t('worksSection.villageresort.alt'),
+      name: `${i18n.t('worksSection.villageresort.name')}`,
+      description: `${i18n.t('worksSection.villageresort.description')}`,
+      tools: 'HTML5, CSS3, PHP, JavaScript, Angular.js, MySQL',
+      link: 'https://villageresort.com.br/',
     },
-    lasso: {
-      alt: i18n.t('worksSection.lasso.alt'),
-      name: `${i18n.t('worksSection.lasso.name')}`,
-      description: `${i18n.t('worksSection.lasso.description')}`,
+    casadecampo: {
+      alt: i18n.t('worksSection.casadecampo.alt'),
+      name: `${i18n.t('worksSection.casadecampo.name')}`,
+      description: `${i18n.t('worksSection.casadecampo.description')}`,
       tools: 'React, Redux, Sass',
-      link: 'https://lasso-ecommerce.up.railway.app/',
-      code: 'https://github.com/thiagotorresz/lasso-ecommerce',
+      link: 'http://villagecasadecampo.com.br/',
     },
-    noir: {
-      alt: i18n.t('worksSection.noir.alt'),
-      name: `${i18n.t('worksSection.noir.name')}`,
-      description: `${i18n.t('worksSection.noir.description')}`,
+    rotary: {
+      alt: i18n.t('worksSection.rotary.alt'),
+      name: `${i18n.t('worksSection.rotary.name')}`,
+      description: `${i18n.t('worksSection.rotary.description')}`,
       tools: 'HTML5, CSS3, JavaScript',
-      link: 'https://noir-barbearia.vercel.app/',
-      code: 'https://github.com/thiagotorresz/noir-barbearia',
+      link: 'https://villageresort.com.br/rotary',
     },
-    alugaFacil: {
-      alt: i18n.t('worksSection.alugaFacil.alt'),
-      name: `${i18n.t('worksSection.alugaFacil.name')}`,
-      description: `${i18n.t('worksSection.alugaFacil.description')}`,
+    amorexigente: {
+      alt: i18n.t('worksSection.amorexigente.alt'),
+      name: `${i18n.t('worksSection.amorexigente.name')}`,
+      description: `${i18n.t('worksSection.amorexigente.description')}`,
       tools: 'React, TypeScript, Sass',
-      link: 'https://aluga-facil.vercel.app/',
-      code: 'https://github.com/thiagotorresz/aluga-facil',
+      link: 'https://villageresort.com.br/amorexigente2025/',
     },
   };
 
@@ -73,97 +69,97 @@ const Works = () => {
           <div className='mx-auto w-full max-w-[400px] md:hidden'>
             <Slider {...settings}>
               <div>
-                {/* Casa & Cor */}
+                {/* Village Resort */}
                 <WorkElement
-                  img={CasaECorMobileImg}
-                  alt={info.casaECor.alt}
-                  name={info.casaECor.name}
-                  description={info.casaECor.description}
-                  tools={info.casaECor.tools}
-                  link={info.casaECor.link}
-                  code={info.casaECor.code}
+                  img={villageresortMobileImg}
+                  alt={info.villageresort.alt}
+                  name={info.villageresort.name}
+                  description={info.villageresort.description}
+                  tools={info.villageresort.tools}
+                  link={info.villageresort.link}
+                  code={info.villageresort.code}
                 />
               </div>
               <div>
-                {/* Lasso */}
+                {/* casadecampo */}
                 <WorkElement
-                  img={LassoMobileImg}
-                  alt={info.lasso.alt}
-                  name={info.lasso.name}
-                  description={info.lasso.description}
-                  tools={info.lasso.tools}
-                  link={info.lasso.link}
-                  code={info.lasso.code}
+                  img={casadecampoMobileImg}
+                  alt={info.casadecampo.alt}
+                  name={info.casadecampo.name}
+                  description={info.casadecampo.description}
+                  tools={info.casadecampo.tools}
+                  link={info.casadecampo.link}
+                  code={info.casadecampo.code}
                 />
               </div>
               <div>
-                {/* Noir */}
+                {/* rotary */}
                 <WorkElement
-                  img={NoirMobileImg}
-                  alt={info.noir.alt}
-                  name={info.noir.name}
-                  description={info.noir.description}
-                  tools={info.noir.tools}
-                  link={info.noir.link}
-                  code={info.noir.code}
+                  img={rotaryMobileImg}
+                  alt={info.rotary.alt}
+                  name={info.rotary.name}
+                  description={info.rotary.description}
+                  tools={info.rotary.tools}
+                  link={info.rotary.link}
+                  code={info.rotary.code}
                 />
               </div>
               <div>
                 {/* Aluga Fácil */}
                 <WorkElement
-                  img={AlugaFacilMobileImg}
-                  alt={info.alugaFacil.alt}
-                  name={info.alugaFacil.name}
-                  description={info.alugaFacil.description}
-                  tools={info.alugaFacil.tools}
-                  link={info.alugaFacil.link}
-                  code={info.alugaFacil.code}
+                  img={amorexigenteMobileImg}
+                  alt={info.amorexigente.alt}
+                  name={info.amorexigente.name}
+                  description={info.amorexigente.description}
+                  tools={info.amorexigente.tools}
+                  link={info.amorexigente.link}
+                  code={info.amorexigente.code}
                 />
               </div>
             </Slider>
           </div>
           {/* Desktop */}
           <div className='hidden md:flex flex-col'>
-            {/* Casa & Cor */}
+            {/* Village Resort */}
             <WorkElement
-              img={CasaECorDesktopImg}
-              alt={info.casaECor.alt}
-              name={info.casaECor.name}
-              description={info.casaECor.description}
-              tools={info.casaECor.tools}
-              link={info.casaECor.link}
-              code={info.casaECor.code}
+              img={villageresortDesktopImg}
+              alt={info.villageresort.alt}
+              name={info.villageresort.name}
+              description={info.villageresort.description}
+              tools={info.villageresort.tools}
+              link={info.villageresort.link}
+              code={info.villageresort.code}
             />
-            {/* Lasso */}
+            {/* casadecampo */}
             <WorkElement
-              img={LassoDesktopImg}
-              alt={info.lasso.alt}
-              name={info.lasso.name}
-              description={info.lasso.description}
-              tools={info.lasso.tools}
-              link={info.lasso.link}
-              code={info.lasso.code}
+              img={casadecampoDesktopImg}
+              alt={info.casadecampo.alt}
+              name={info.casadecampo.name}
+              description={info.casadecampo.description}
+              tools={info.casadecampo.tools}
+              link={info.casadecampo.link}
+              code={info.casadecampo.code}
               reverse
             />
-            {/* Noir */}
+            {/* rotary */}
             <WorkElement
-              img={NoirDesktopImg}
-              alt={info.noir.alt}
-              name={info.noir.name}
-              description={info.noir.description}
-              tools={info.noir.tools}
-              link={info.noir.link}
-              code={info.noir.code}
+              img={rotaryDesktopImg}
+              alt={info.rotary.alt}
+              name={info.rotary.name}
+              description={info.rotary.description}
+              tools={info.rotary.tools}
+              link={info.rotary.link}
+              code={info.rotary.code}
             />
             {/* Aluga Fácil */}
             <WorkElement
-              img={AlugaFacilDesktopImg}
-              alt={info.alugaFacil.alt}
-              name={info.alugaFacil.name}
-              description={info.alugaFacil.description}
-              tools={info.alugaFacil.tools}
-              link={info.alugaFacil.link}
-              code={info.alugaFacil.code}
+              img={amorexigenteDesktopImg}
+              alt={info.amorexigente.alt}
+              name={info.amorexigente.name}
+              description={info.amorexigente.description}
+              tools={info.amorexigente.tools}
+              link={info.amorexigente.link}
+              code={info.amorexigente.code}
               reverse
             />
           </div>

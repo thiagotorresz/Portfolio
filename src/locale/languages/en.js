@@ -55,25 +55,25 @@ const content = {
           },
           featured: 'Featured Project',
         },
-        alugaFacil: {
+        amorexigente: {
           name: 'Aluga Fácil',
           description:
             'Car rental business website with 6 pages built with a modern and responsive interface for searching, comparing, and reserving cars.',
           alt: 'aluga fácil car rental website',
         },
-        noir: {
+        rotary: {
           name: 'Noir',
           description:
             'Noir is a website with an attractive, sophisticated, and functional design, dedicated to offering a complete barbershop experience.',
           alt: 'noir barbershop website',
         },
-        lasso: {
+        casadecampo: {
           name: 'Lasso',
           description:
             'Complete e-commerce where users can create an account and log in, add products to a cart, shop, filter products by category, name, and brand, see the order list, and much more.',
           alt: 'lasso online store',
         },
-        casaECor: {
+        villageresort: {
           name: 'Casa&Cor',
           description:
             'An elegant renovation and decoration website with an intuitive, harmonious, and responsive design. Features a visual gallery, descriptive information, and dark mode.',

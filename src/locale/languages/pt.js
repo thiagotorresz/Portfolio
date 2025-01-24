@@ -55,25 +55,25 @@ const content = {
           },
           featured: 'Projeto em Destaque',
         },
-        alugaFacil: {
+        amorexigente: {
           name: 'Aluga Fácil',
           description:
             'Site de aluguel de carros com 6 páginas. Construído com uma interface moderna e responsiva para busca, comparação e reserva de veículos.',
           alt: 'aluga fácil site de aluguel de carros',
         },
-        noir: {
+        rotary: {
           name: 'Noir',
           description:
             'Noir é um site com um design atrativo, sofisticado e funcional, dedicado a oferecer uma experiência completa de barbearia.',
           alt: 'noir site de barbearia',
         },
-        lasso: {
+        casadecampo: {
           name: 'Lasso',
           description:
             'Loja completa onde os usuários podem criar conta e fazer login, adicionar produtos ao carrinho, fazer compras, filtrar produtos por categoria, nome, marca, ver a lista de pedidos e etc.',
           alt: 'loja online lasso',
         },
-        casaECor: {
+        villageresort: {
           name: 'Casa&Cor',
           description:
             'Um site de reforma e decoração elegante com design intuitivo, harmônico e inovador. Apresenta uma galeria visual, informações descritivas e modo escuro.',

@@ -48,7 +48,7 @@ const Skills = () => {
           <SkillCard color='#B3B3B6' icon={DiDatabase} name='Database' active={active} />
         </div>
         <button
-          className='sm:hidden w-36 h-11 flex justify-center items-center mx-auto rounded bg-transparent border-2 hover:text-white active:text-white hover:bg-theme-blue-50 active:bg-theme-blue-50 hover:border-theme-blue-50 active:border-theme-blue-50 duration-200 group font-medium'
+          className='sm:hidden w-36 h-11 flex justify-center items-center mx-auto rounded bg-transparent border-2 hover:text-gray-800 active:text-gray-800 hover:bg-theme-white active:bg-theme-white hover:border-theme-white active:border-theme-white duration-200 group font-medium'
           onClick={showMore}>
           {active ? `${i18n.t('skillsSection.showLess')}` : `${i18n.t('skillsSection.showMore')}`}
           {active ? <HiMinus className='ml-1' /> : <BsPlusLg className='ml-1' />}
